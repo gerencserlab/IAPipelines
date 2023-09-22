@@ -1,6 +1,7 @@
 # Cellpose segmentation
 ## Parameters:
-|Name|#|Type|Description|
+| Name | # | Type | Description |  
+| ------------------| -- | ------- | ----------- |
 |Cells: Scale maximum (percentile)|1|real|This percentile of the image histogram sets the intensity value where the maximum of the Look Up Table (LUT) is scaled. Use -1 to override this with fixed value set below at "Max value".|
 |Cells: Smooth factor|2|real|Wiener filter noise level (0-1). Higher value provides more smoothing.|
 |Cells: Gamma|3|real|A gamma value >1 makes image supralinearly brighter, a gamma value <1 makes the image sublinearly darker.|
@@ -30,5 +31,5 @@ https://github.com/MouseLand/cellpose
 Keywords: U-Net, CNN, deep learning, generalist cell segmentation, artificial intelligence, AI
 
 
-![structure](Cellpose segmentation.png)
+![structure](Cellpose%20segmentation.png)
 
